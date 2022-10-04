@@ -1,0 +1,17 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headerInput {
+    padding-bottom: 30px;
+}
