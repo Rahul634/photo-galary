@@ -5,7 +5,7 @@ function useStorage(file) {
     const [progress, setProgress] = useState(0)
     const [url, setUrl] = useState(null)
     const [error, setError] = useState(null)
-    const [random, useRandom] = useState(null)
+    
     useEffect(() => {
         const storageRef = projectstorage.ref(file.name)
         const collectionRef = projectfirestore.collection('images')
